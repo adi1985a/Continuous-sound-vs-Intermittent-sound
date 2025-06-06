@@ -26,7 +26,7 @@ _A Borland C++ Builder VCL application demonstrating synchronous and asynchronou
 The application features a simple graphical user interface (GUI) with dedicated buttons to trigger each playback method. It also handles the loading of the audio file (`snd/dzwiek.wav`) upon form creation and ensures proper resource cleanup when the form is closed.
 
 <p align="center">
-  <img src="screenshots\1.jpg" width="800"/>
+  <img src="screenshots\1.jpg" width="600"/>
 </p>
 
 ## ✨ Key Features & Playback Methods
