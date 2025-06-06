@@ -25,6 +25,10 @@ _A Borland C++ Builder VCL application demonstrating synchronous and asynchronou
 2.  **Asynchronous Playback**: Employing the WinAPI function `sndPlaySound` from `mmsystem.h`.
 The application features a simple graphical user interface (GUI) with dedicated buttons to trigger each playback method. It also handles the loading of the audio file (`snd/dzwiek.wav`) upon form creation and ensures proper resource cleanup when the form is closed.
 
+<p align="center">
+  <img src="screenshots\1.jpg" width="300"/>
+</p>
+
 ## ✨ Key Features & Playback Methods
 
 *   <0xF0><0x9F><0xAA><0xBD> **MediaPlayer Playback (Synchronous)**:
@@ -45,12 +49,6 @@ The application features a simple graphical user interface (GUI) with dedicated 
     *   `FormClose`: Properly closes the `TMediaPlayer` component to release associated system resources when the application window is closed.
 *   🎵 **Audio File Dependency**:
     *   The application is hardcoded to look for an audio file named `dzwiek.wav` located in a subfolder named `snd` (i.e., `snd/dzwiek.wav`) relative to the executable's path.
-
-## 🖼️ Screenshots (Conceptual)
-
-**Coming soon!**
-
-_This section would ideally show a screenshot of the simple application window with its two playback buttons._
 
 ## ⚙️ System Requirements
 
