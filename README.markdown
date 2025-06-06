@@ -20,13 +20,13 @@ _A Borland C++ Builder VCL application demonstrating synchronous and asynchronou
 
 ## 📄 Overview
 
-**VCL AudioPlayer Demo**, developed by Adrian Lesniak, is a C++ application built using Borland C++ Builder and its Visual Component Library (VCL). This program serves as a practical demonstration of two distinct methods for playing audio files on Windows:
+**VCL AudioPlayer Demo**, is a C++ application built using Borland C++ Builder and its Visual Component Library (VCL). This program serves as a practical demonstration of two distinct methods for playing audio files on Windows:
 1.  **Synchronous Playback**: Utilizing the `TMediaPlayer` VCL component.
 2.  **Asynchronous Playback**: Employing the WinAPI function `sndPlaySound` from `mmsystem.h`.
 The application features a simple graphical user interface (GUI) with dedicated buttons to trigger each playback method. It also handles the loading of the audio file (`snd/dzwiek.wav`) upon form creation and ensures proper resource cleanup when the form is closed.
 
 <p align="center">
-  <img src="screenshots\1.jpg" width="300"/>
+  <img src="screenshots\1.jpg" width="800"/>
 </p>
 
 ## ✨ Key Features & Playback Methods
